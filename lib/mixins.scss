@@ -3,7 +3,8 @@
 
 @mixin series-number {
   border: $border-standard;
-  margin: 0 auto;
+  margin: 10px auto;
+  padding: 3px 0px;
   text-align: center;
   width: 30px;
 }
