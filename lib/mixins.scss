@@ -2,5 +2,8 @@
 
 
 @mixin series-number {
+  border: $border-standard;
+  margin: 0 auto;
   text-align: center;
+  width: 30px;
 }
