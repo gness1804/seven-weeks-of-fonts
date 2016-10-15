@@ -46,3 +46,4 @@ jspm_packages
 #bundle js files
 main.bundle.js
 test.bundle.js
+bundle.js
