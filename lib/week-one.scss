@@ -4,6 +4,11 @@
 .week-one-section {
   background: $burning-gradient;
   font-family: $week-one-lato-sans-serif;
+  position: relative;
+
+  img {
+    position: absolute;
+  }
 
   h1 {
     font-family: $week-one-unna-serif;
