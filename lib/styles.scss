@@ -1,6 +1,11 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+//housekeeping syles
+.is-hidden {
+  @include hidden;
+}
+
 .series-number {
   @include series-number;
 }
