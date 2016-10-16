@@ -9,6 +9,7 @@
 @mixin font-label {
   margin: 0 auto;
   text-align: center;
+  text-transform: uppercase;
 }
 
 @mixin link-unvisited {
