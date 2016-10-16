@@ -11,6 +11,21 @@
   text-align: center;
 }
 
+@mixin link-unvisited {
+  color: $link-unvisited-color-standard;
+  text-decoration: none;
+}
+
+@mixin link-visited {
+  color: $link-visited-color-standard;
+  text-decoration: none;
+}
+
+@mixin link-hover {
+  color: $link-hover-color-standard;
+  font-style: italic;
+}
+
 @mixin series-number {
   border: $border-standard;
   margin: 10px auto;

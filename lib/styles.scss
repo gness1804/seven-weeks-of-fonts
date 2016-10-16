@@ -6,6 +6,19 @@
   @include hidden;
 }
 
+a:link {
+  @include link-unvisited;
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+//page styles
 .series-number {
   @include series-number;
 }
