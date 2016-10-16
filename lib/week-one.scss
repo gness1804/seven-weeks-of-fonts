@@ -1,2 +1,11 @@
 @import "variables.scss";
 @import "mixins.scss";
+
+.week-one-section {
+
+  h1 {
+    font-family: $week-one-unna-serif;
+    text-align: center;
+  }
+
+} //end of week-one-section
