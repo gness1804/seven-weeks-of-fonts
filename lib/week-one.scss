@@ -2,10 +2,15 @@
 @import "mixins.scss";
 
 .week-one-section {
+  font-family: $week-one-lato-sans-serif;
 
   h1 {
     font-family: $week-one-unna-serif;
+    font-size: 5vw;
+    letter-spacing: 2vw;
+    margin: 0 auto;
     text-align: center;
+    width: 50vw;
   }
 
 } //end of week-one-section
