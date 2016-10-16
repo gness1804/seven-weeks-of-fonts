@@ -1,5 +1,11 @@
 @import "variables.scss";
 
+@mixin date {
+  font-style: italic;
+  margin: 40px auto;
+  text-align: center;
+}
+
 
 @mixin series-number {
   border: $border-standard;

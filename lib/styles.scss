@@ -4,3 +4,7 @@
 .series-number {
   @include series-number;
 }
+
+.date {
+  @include date;
+}
