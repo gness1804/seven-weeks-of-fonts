@@ -1,0 +1,46 @@
+@import "variables.scss";
+
+@mixin date {
+  font-style: italic;
+  margin: 40px auto;
+  text-align: center;
+}
+
+@mixin font-label {
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@mixin link-unvisited {
+  color: $link-unvisited-color-standard;
+  text-decoration: none;
+}
+
+@mixin link-visited {
+  color: $link-visited-color-standard;
+  text-decoration: none;
+}
+
+@mixin link-hover {
+  color: $link-hover-color-standard;
+  font-style: italic;
+}
+
+@mixin series-number {
+  border: $border-standard;
+  margin: 10px auto;
+  padding: 3px 0px;
+  text-align: center;
+  width: 30px;
+}
+
+@mixin hidden {
+  display: none;
+}
+
+@mixin watermark {
+  opacity: 0.25;
+  position: fixed;
+  z-index: 99;
+}

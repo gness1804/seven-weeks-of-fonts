@@ -1,2 +1,33 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "week-one.scss";
+
+//housekeeping and generic syles
+.is-hidden {
+  @include hidden;
+}
+
+a:link {
+  @include link-unvisited;
+}
+
+a:visited {
+  @include link-visited;
+}
+
+a:hover {
+  @include link-hover;
+}
+
+//page styles
+.series-number {
+  @include series-number;
+}
+
+.date {
+  @include date;
+}
+
+.font-label {
+  @include font-label;
+}
