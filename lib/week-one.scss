@@ -8,6 +8,8 @@
 
   .water-drop {
     @include watermark;
+    left: 20%;
+    width: 600px;
   }
 
   h1 {
@@ -20,3 +22,9 @@
   }
 
 } //end of week-one-section
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .water-drop {
+    display: none;
+  }
+} //end of media query
