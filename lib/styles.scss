@@ -1,7 +1,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-//housekeeping syles
+//housekeeping and generic syles
 .is-hidden {
   @include hidden;
 }
