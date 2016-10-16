@@ -1,14 +1,15 @@
 //borders
 $border-standard: 1px solid black;
+$border-circle: 50%;
 
 //colors and backgrounds
 $burning-gradient: linear-gradient(to bottom, rgb(200, 66, 37), rgb(200, 189, 41));
 
 //fonts
-$week-one-unna-serif: 'Unna', serif;
 $week-one-lato-sans-serif: 'Lato', sans-serif;
+$week-one-unna-serif: 'Unna', serif;
 
 //links
+$link-hover-color-standard: rgb(237, 93, 12);
 $link-unvisited-color-standard: rgb(113, 129, 186);
 $link-visited-color-standard: rgb(108, 115, 119);
-$link-hover-color-standard: rgb(237, 93, 12);
