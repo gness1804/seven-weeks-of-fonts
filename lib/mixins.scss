@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+@mixin font-label {
+  margin: 0 auto;
+  text-align: center;
+}
 
 @mixin series-number {
   border: $border-standard;
