@@ -7,7 +7,7 @@
   position: relative;
 
   .water-drop {
-    position: absolute;
+    @include watermark;
   }
 
   h1 {
