@@ -2,7 +2,16 @@
 @import "mixins.scss";
 
 .week-two-section {
-  
+  font-family: $week-two-open-sans-sans-serif;
+
+  h1 {
+    font-family: $week-two-vollkorn-serif;
+    font-size: 40px;
+    line-height: 3em;
+    margin: 90px auto;
+    text-align: center;
+    width: 50vw;
+  }
 
 
 } //end of week-two-section
