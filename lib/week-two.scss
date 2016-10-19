@@ -6,11 +6,24 @@
 
   h1 {
     font-family: $week-two-vollkorn-serif;
-    font-size: 40px;
+    font-style: italic;
+    font-size: 42px;
     line-height: 3em;
     margin: 90px auto;
     text-align: center;
     width: 50vw;
+  }
+
+  .week-two-title-first-part {
+    color: $steves-teal;
+  }
+
+  .week-two-title-second-part {
+    color: $steves-orange;
+  }
+
+  .week-two-title-third-part {
+    color: $steves-red;
   }
 
 
