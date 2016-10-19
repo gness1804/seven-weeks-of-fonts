@@ -47,3 +47,6 @@ jspm_packages
 main.bundle.js
 test.bundle.js
 bundle.js
+
+#notes
+notes.md
