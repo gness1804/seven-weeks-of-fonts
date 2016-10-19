@@ -1,0 +1,31 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.week-two-section {
+  font-family: $week-two-open-sans-sans-serif;
+  background-color: rgb(99, 227, 160);
+
+  h1 {
+    font-family: $week-two-vollkorn-serif;
+    font-style: italic;
+    font-size: 42px;
+    line-height: 3em;
+    margin: 90px auto;
+    text-align: center;
+    width: 50vw;
+  }
+
+  .week-two-title-first-part {
+    color: $steves-teal;
+  }
+
+  .week-two-title-second-part {
+    color: $steves-orange;
+  }
+
+  .week-two-title-third-part {
+    color: $steves-red;
+  }
+
+
+} //end of week-two-section

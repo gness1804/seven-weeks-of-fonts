@@ -41,6 +41,7 @@
 
 @mixin watermark {
   opacity: 0.25;
-  position: fixed;
+  position: absolute;
+  // position: fixed;
   z-index: 99;
 }
