@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.week-four-section {
+  //background
+  font-family: $week-four-open-sans-sans-serif;
+
+  h1 {
+    font-family: $week-four-abril-fatface-serif;
+    font-style: italic;
+  }
+
+} //end of week-four-section
