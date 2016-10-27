@@ -5,7 +5,16 @@
   background-image: url(http://media.npr.org/assets/img/2014/08/06/insta_delivery_sq-a155e6948a70f4130b25a0055317de6f264c42c6-s300-c85.jpg);
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
+  color: white;
   font-family: $week-four-open-sans-sans-serif;
+
+  a:visited {
+    color: rgb(237, 221, 238);
+  }
+
+  .series-number {
+    border-color: white;
+  }
 
   h1 {
     font-family: $week-four-abril-fatface-serif;
@@ -16,3 +25,15 @@
   }
 
 } //end of week-four-section
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+
+  .week-four-section {
+
+    h1 {
+      text-align: center;
+    }
+
+  } //end of week-four-section
+
+} //end of media query
